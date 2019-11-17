@@ -1,4 +1,18 @@
+@import "~taro-ui/dist/style/components/search-bar.scss";
+@import "~taro-ui/dist/style/components/button.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
 .index {
   flex-direction: column;
   width: 100%;
+  .test-h{
+    //min-height: 300px;
+    //height: auto;
+    height: 500px;
+
+    image{
+      width: 100%;
+    }
+  }
+
 }
